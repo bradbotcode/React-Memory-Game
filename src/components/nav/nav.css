@@ -1,0 +1,11 @@
+.score {
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.message {
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
