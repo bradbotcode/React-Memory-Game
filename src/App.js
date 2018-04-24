@@ -21,7 +21,7 @@ class App extends Component {
       this.setState({
         clickedIcons: [],
         score: 0,
-        message: "Game Over, you lost! Click an Icon to Start Again."
+        message: "Game Over, You Lost! Click an Icon to Start Again."
       });
       return;
     } else {
