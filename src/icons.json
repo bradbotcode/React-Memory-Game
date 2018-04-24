@@ -1,76 +1,62 @@
-[{
-        "id": 1,
-        "image": "./assets/images/bootstrap.png",
-        "isClicked": false
-    },
-    {
-        "id": 2,
-        "image": "./assets/images/css.png",
-        "isClicked": false
-    },
-    {
-        "id": 3,
-        "image": "./assets/images/git.png",
-        "isClicked": false
-    },
-    {
-        "id": 4,
-        "image": "./assets/images/github.png",
-        "isClicked": false
-    },
-    {
-        "id": 5,
-        "image": "./assets/images/heroku.png",
-        "isClicked": false
-    },
-    {
-        "id": 6,
-        "image": "./assets/images/html.png",
-        "isClicked": false
-    },
-    {
-        "id": 7,
-        "image": "./assets/images/js.png",
-        "isClicked": false
-    },
-    {
-        "id": 8,
-        "image": "./assets/images/mongo.png",
-        "isClicked": false
-    },
-    {
-        "id": 9,
-        "image": "./assets/images/mysql.png",
-        "isClicked": false
-    },
-    {
-        "id": 10,
-        "image": "./assets/images/node.png",
-        "isClicked": false
-    },
-    {
-        "id": 11,
-        "image": "./assets/images/npm.png",
-        "isClicked": false
-    },
-    {
-        "id": 12,
-        "image": "./assets/images/react.png",
-        "isClicked": false
-    },
-    {
-        "id": 13,
-        "image": "./assets/images/sequelize.png",
-        "isClicked": false
-    },
-    {
-        "id": 14,
-        "image": "./assets/images/webpack.png",
-        "isClicked": false
-    },
-    {
-        "id": 15,
-        "image": "./assets/images/yarn.png",
-        "isClicked": false
-    }
+[
+  {
+    "id": 1,
+    "image": "./assets/images/bootstrap.png"
+  },
+  {
+    "id": 2,
+    "image": "./assets/images/css.png"
+  },
+  {
+    "id": 3,
+    "image": "./assets/images/git.png"
+  },
+  {
+    "id": 4,
+    "image": "./assets/images/github.png"
+  },
+  {
+    "id": 5,
+    "image": "./assets/images/heroku.png"
+  },
+  {
+    "id": 6,
+    "image": "./assets/images/html.png"
+  },
+  {
+    "id": 7,
+    "image": "./assets/images/js.png"
+  },
+  {
+    "id": 8,
+    "image": "./assets/images/mongo.png"
+  },
+  {
+    "id": 9,
+    "image": "./assets/images/mysql.png"
+  },
+  {
+    "id": 10,
+    "image": "./assets/images/node.png"
+  },
+  {
+    "id": 11,
+    "image": "./assets/images/npm.png"
+  },
+  {
+    "id": 12,
+    "image": "./assets/images/react.png"
+  },
+  {
+    "id": 13,
+    "image": "./assets/images/sequelize.png"
+  },
+  {
+    "id": 14,
+    "image": "./assets/images/webpack.png"
+  },
+  {
+    "id": 15,
+    "image": "./assets/images/yarn.png"
+  }
 ]

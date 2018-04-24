@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "./components/nav";
-//import Card from "./components/card";
-//import Header from "./components/header";
+import Card from "./components/card";
+import Header from "./components/header";
 import Icons from "./icons.json";
 import "./App.css";
 
@@ -14,8 +14,56 @@ class App extends Component {
     message: ""
   };
 
+  shuffleIcons = id => {
+    let clickedIcons = this.state.clickedIcons;
+
+    if (clickedIcons.includes(id)) {
+      this.setState({
+        clickedIcons: [],
+        score: 0,
+        message: "Game Over, you lost! Click an icon to start again."
+      });
+      return;
+    } else {
+      clickedIcons.push(id);
+
+      if (clickedIcons.length === 15) {
+        this.setState({
+          clickedIcons: [],
+          score: 15,
+          message: "You Win, Way to Go! But... can you do it again?"
+        });
+        return;
+      }
+      this.setState({
+        Icons,
+        clickedIcons,
+        score: clickedIcons.length,
+        message: "Correct. Keep it up!"
+      });
+
+      Icons.sort(function(a, b) {
+        return 0.5 - Math.random();
+      });
+    }
+  };
+
   render() {
-    return <Nav score={this.state.score} message={this.state.message} />;
+    return (
+      <div>
+        <Nav score={this.state.score} message={this.state.message} />
+        <Header />
+        <main className="container">
+          {this.state.Icons.map(icon => (
+            <Card
+              image={icon.image}
+              id={icon.id}
+              shuffleIcons={this.shuffleIcons}
+            />
+          ))}
+        </main>
+      </div>
+    );
   }
 }
 
