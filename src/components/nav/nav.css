@@ -2,10 +2,12 @@
   padding-right: 50px;
   font-weight: bold;
   font-size: 20px;
+  font-family: "Roboto Mono", monospace;
 }
 
 .message {
   padding-left: 50px;
   font-weight: bold;
   font-size: 20px;
+  font-family: "Roboto Mono", monospace;
 }

@@ -21,7 +21,7 @@ class App extends Component {
       this.setState({
         clickedIcons: [],
         score: 0,
-        message: "Game Over, you lost! Click an icon to start again."
+        message: "Game Over, you lost! Click an Icon to Start Again."
       });
       return;
     } else {
@@ -31,7 +31,7 @@ class App extends Component {
         this.setState({
           clickedIcons: [],
           score: 15,
-          message: "You Win, Way to Go! But... can you do it again?"
+          message: "You Win, Way to Go! But... Can You Do It Again?"
         });
         return;
       }
@@ -42,7 +42,7 @@ class App extends Component {
         message: "Correct. Keep it up!"
       });
 
-      Icons.sort(function(a, b) {
+      Icons.sort(function() {
         return 0.5 - Math.random();
       });
     }
