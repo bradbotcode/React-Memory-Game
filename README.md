@@ -4,7 +4,7 @@
 
 This app is a simple memory game built using React. 
 
-Want to play? View this live demo: [Click me!](https://reactmemory.herokuapp.com/)
+Want to play? View this live demo: [Click me!](https://react-mem-game.herokuapp.com/)
 
 ### Instructions
 
